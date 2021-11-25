@@ -1,0 +1,64 @@
+body{
+    background-color:#1f2937;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    display:grid;
+    margin:0;
+}
+
+nav{
+    background-color: #5b21b6;
+    padding: 1.5rem;
+    margin:auto;
+}
+
+a{
+    color:white;
+    margin:1rem;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    padding:2rem;
+    margin:1rem;
+}
+
+.container{
+    display: grid;
+    width:50%;
+    margin:auto;
+    text-align: center;
+    padding:0.5rem;
+}
+
+.question-container{
+    border:3px solid indigo;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius: 1rem;
+}
+
+#submit-answer-btn{
+    background-color: #5b21b6;
+    color:white;
+    display: grid;
+    width:20%;
+    margin:auto;
+    text-align: center;
+    padding:1rem;
+    border-radius:2rem;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#output{
+    color:white;
+    text-align: center;
+    padding:1rem;
+    font-weight: bold;
+    font-style: italic;
+}
